@@ -7,11 +7,11 @@ const searchKeyword = ref('')
 </script>
 
 <template>
-    <div class="bg-white px-3 rounded border py-3 lg:h-full overflow-hidden flex flex-col ">
+    <div class="bg-white px-3 rounded border py-3 h-[300px] lg:h-full overflow-hidden flex flex-col ">
 
         <h2 class="text-xl font-bold mb-4">My Followings</h2>
         <TextInput :model-value="searchKeyword" placeholder="Search followers" class="w-full" />
-        <div class="mt-3 lg:flex-1 h-[300px] lg:h-auto overflow-auto">
+        <div class="mt-3 flex-1 overflow-auto">
             <div v-if="false" class="text-gray-400 text-center p-3">
                 You don't have freinds yet
             </div>
